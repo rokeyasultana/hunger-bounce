@@ -1,0 +1,47 @@
+[
+    {
+        "name":"Khao Tom (Rice Soup)",
+        "img":"https://www.tripsavvy.com/thmb/-tz14plrhZXkExO5WKjdLTgd4Cw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/khao-tom-thai-rice-soup-589e611304f9406b9b4257afcc1de442.jpg",
+        "price":"5",
+        "details":"Khao tom (rice soup) is also made from rice, but unlike jok, khao tom remains thin and is less congealed. Khao (pronounced “cow” not “koh”) means “rice” in Thai."
+
+    },
+    {
+        "name":"Pa Thong Ko (Chinese Doughnuts)",
+        "img":"https://www.tripsavvy.com/thmb/qFp8IVtIePYwfBCZU6D16-bd4Ig=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/pa-thong-ko-doughnuts-thailand-bcf1a54a374a4319bc1f6776f5338c32.jpg",
+        "price":"6",
+        "details":"Heads up, doughnut fans: The Thai snack pa thong ko (or patango) borrowed from China is the closest thing to doughnuts you’ll find made at street carts"
+
+    },
+
+    {
+        "name":"Nam Tao Hoo (Soy Milk)",
+        "img":"https://www.tripsavvy.com/thmb/MSHByWIyhvVB4Z9SOwRgVrRCb0A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/soy-milk-thai-breakfast-89960bd63e68492fbf888b8b5a21ed6c.jpg",
+        "price":"5",
+        "details":" The milk powder quietly added to processed 7-Eleven snacks doesn’t count. That said, soy milk has garnered quite a fan base in Southeast Asia as a nutritional beverage consumed at breakfast."
+
+    },
+
+    {
+        "name":"Dim Sum/Bao",
+        "img":"https://www.tripsavvy.com/thmb/mDDpldPnnlHv3RQdDzbdHoAmwH4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/salapao-buns-thai-food-244823f178c8417daa82568fd52d9a3f.jpg",
+        "price":"7",
+        "details":"Dim sum and bao obviously aren’t Thai creations, but that doesn’t stop them from being regularly consumed as a quick breakfast or lunch."
+
+    },
+
+    {
+        "name":"Kanom Krok (Small Coconut Pancakes) ",
+        "img":"https://www.tripsavvy.com/thmb/v7AM1CRXWi6ZuKg0LyFaGghTXQs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/kanom-krok-thai-sweet-pancakes-d645a8a4faa34ab984cbaff9ac6371f7.jpg",
+        "price":"5",
+        "details":"Although they can be enjoyed anytime, the small coconut pancakes known as kanom krok are a convenient, finger-food snack frequently eaten at breakfast."
+
+    },
+    {
+        "name":"Jok (Rice Porridge)",
+        "img":"https://www.tripsavvy.com/thmb/TOp87Uvd_xekS2msA0n6ITlL7lU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/jok-rice-porridge-thai-breakfast-f3731e5f7bd7400abc32203c0736742e.jpg",
+        "price":"6",
+        "details":"Aside from Thai-style omelets, jok (pronounced: “joke”) is probably the Thai breakfast food most closely resembling a Western breakfast dish. "
+
+    }
+]

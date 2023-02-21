@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Nahm Jim Sauce with Fresh Prawns",
+        "img":"https://www.marionskitchen.com/wp-content/uploads/2022/12/Best-Thai-dinner-party-menu-03-768x768.jpg",
+        "price":"4",
+        "details":"This spicy nahm jim sauce is chock full of fresh chillies and herbs, giving your tastebuds a total party. Garlicky, herby, tangy and spicy all at once, nahm jim isn’t your average seafood sauce, but is all the better for it."
+
+    },
+    {
+        "name":"Thai Chicken Fried Rice",
+        "img":"https://www.marionskitchen.com/wp-content/uploads/2022/12/Best-Thai-dinner-party-menu-05-768x768.jpg",
+        "price":"5",
+        "details":" A classic fried rice is a wondrous thing, and this recipe features perfectly coated grains of rice, juicy chicken strips and pops of tomato coupled with an umami-bomb of a stir-fry sauce."
+
+    },
+    {
+        "name":"Thai Salmon and Herb Salad",
+        "img":"https://www.marionskitchen.com/wp-content/uploads/2022/12/Best-Thai-dinner-party-menu-06-768x768.jpg",
+        "price":"4.5",
+        "details":"This is the last piece to your dinner party puzzle. Every good dinner party has at least one salad on the table, but this one is NOT your average salad."
+
+    },
+    {
+        "name":"Thai Coconut Chicken Soup",
+        "img":"https://www.feastingathome.com/wp-content/uploads/2018/10/Tom-Kha-Gai-Soup-101.jpg",
+        "price":"6",
+        "details":"Warming and authentic Tom Kha Gai  (Thai Coconut Chicken Soup). This flavorful Thai recipe is very adaptable and can be made in an instant pot or on the stove-top, perfect for chilly evenings."
+
+    },
+    {
+        "name":"Thai Drunken Noodles",
+        "img":"https://www.feastingathome.com/wp-content/uploads/2022/08/drunken-noodles_24-768x1152.jpg",
+        "price":"5",
+        "details":"Thai Drunken Noodles are the perfect 30-minute weeknight dinner – spicy, saucy and full of bold umami flavor-can be made w/ chicken, shrimp or crispy tofu!"
+
+    },
+    {
+        "name":"Thai Pineapple Curry",
+        "img":"https://www.feastingathome.com/wp-content/uploads/2022/07/Pineapple-Curry-768x1152.jpg",
+        "price":"5.5",
+        "details":"Thai Pineapple Curry is an incredibly easy and tasty recipe to whip up for a quick lunch or dinner. This 20-minute version is full of healthy vegetables,  fresh pineapple and your choice of Chicken or Tofu, and bathed in most fragrant coconut red curry sauce.  "
+
+    }
+]

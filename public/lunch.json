@@ -1,0 +1,45 @@
+[
+    {
+        "name":"Khao Soi Soup",
+        "img":"https://www.tasteofhome.com/wp-content/uploads/2020/07/khao-soi-finished_Malina-Syvoravong-for-Taste-of-Home-SQ.jpg?resize=768,768",
+        "price":"7",
+        "details":"Khao soi is an ever-popular North Thai dish—and for good reason! It’s a thick, curried soup that’s served over a bed of rice noodles with a handful of savory toppings like pickled mustard greens and chili paste."
+
+    },
+
+    {
+        "name":"Thai Peanut Chicken and Noodles",
+        "img":"https://www.tasteofhome.com/wp-content/uploads/2018/01/Thai-Peanut-Chicken-and-Noodles_EXPS_SDAM18_207059_B12_07_6b-17.jpg?resize=768,768",
+        "price":"5",
+        "details":"This versatile chicken recipe is very similar to chicken pad Thai but easier to make and tastes just as good."
+
+    },
+    {
+        "name":"Larb Gai",
+        "img":"https://www.tasteofhome.com/wp-content/uploads/2020/08/Larb-Gai_EXPS_FT20_251951_F_0806_1-21.jpg?resize=768,768",
+        "price":"6.5",
+        "details":"Larb gai (Thai chicken salad) is a dish made with ground chicken, chiles, mint and basil. "
+
+    },
+    {
+        "name":"Thai Shrimp Soup",
+        "img":"https://www.tasteofhome.com/wp-content/uploads/2018/01/Thai-Shrimp-Soup_EXPS_SSMZ20_50940_E10_10_4b-3.jpg?resize=768,768",
+        "price":"7",
+        "details":"This tasty soup comes together in minutes, and it’s a crowd pleaser. The ingredients are available in my little Maine grocery store, too."
+
+    },
+    {
+        "name":"Vegetarian Pad Thai",
+        "img":"https://www.tasteofhome.com/wp-content/uploads/2018/01/Vegetarian-Pad-Thai_EXPS_HCK18_197935_B04_014_4b-8.jpg?resize=768,768",
+        "price":"4",
+        "details":"This is a simple pad thai loaded with crisp vegetables and zesty flavor. It’s quick, simple, and fresh-tasting. "
+
+    },
+    {
+        "name":"Thai Coconut Beef",
+        "img":"https://www.tasteofhome.com/wp-content/uploads/2018/01/exps189956_EDSC163648D01_08_6b-1.jpg?resize=768,768",
+        "price":"5.5",
+        "details":"The beef is fantastic in this dish, but chicken or pork would be equally delicious!"
+
+    }
+]
