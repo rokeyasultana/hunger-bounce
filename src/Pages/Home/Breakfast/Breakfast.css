@@ -53,7 +53,7 @@
   }
   
   .containerCard .cardArticle .content .contentBx h3 {
-    color: black;
+    color: red;
    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -81,6 +81,7 @@
     font-weight: 600;
     color: red;
     font-size: 20px;
+ 
     margin: 0 10px;
     transform: translateY(40px);
     transition: 0.5s;
@@ -93,7 +94,8 @@
   }
   
   .containerCard .cardArticle.sci li p {
-    color: black;
+    color: red;
     font-size: 20px;
     font-weight: 500;
+    margin-top: 20px;
   }

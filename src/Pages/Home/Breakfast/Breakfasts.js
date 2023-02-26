@@ -5,7 +5,7 @@ const Breakfasts = () => {
     const[breakfasts,setBreakfasts] = useState([]);
 
 useEffect(()=>{
-    fetch('http://localhost:5000/breakfast')
+    fetch('https://food-delivery-website-server.vercel.app/breakfast')
     .then(res=>res.json())
     .then(data => setBreakfasts(data));
 },[]);

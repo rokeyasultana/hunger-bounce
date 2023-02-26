@@ -11,9 +11,9 @@ const MenuTab = () => {
 
 <Tab.Group>
       <Tab.List className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 mt-11 text-2xl font-semibold'>
-        <Tab  className='hover:text-red-500 no-underline hover:underline '>Breakfast</Tab>
-        <Tab  className='hover:text-red-500 no-underline hover:underline '>Lunch </Tab>
-        <Tab className='hover:text-red-500 no-underline hover:underline '>Dinner</Tab>
+        <Tab  className='text-red-500 no-underline hover:underline '>Breakfast</Tab>
+        <Tab  className='text-red-500 no-underline hover:underline '>Lunch </Tab>
+        <Tab className='text-red-500 no-underline hover:underline '>Dinner</Tab>
       </Tab.List>
       <Tab.Panels>
         <Tab.Panel>
