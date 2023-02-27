@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAdeugv9528BB2l5NfvhhPBGfLQVkqDQfU",
-    authDomain: "hunger-bounce-d6de0.firebaseapp.com",
-    projectId: "hunger-bounce-d6de0",
-    storageBucket: "hunger-bounce-d6de0.appspot.com",
-    messagingSenderId: "950177022118",
-    appId: "1:950177022118:web:7efed244c7c51e7c7df467"
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain:  process.env.REACT_APP_authDomain,
+  projectId:  process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket ,
+  messagingSenderId : process.env.REACT_APP_messagingSenderId ,
+  appId:process.env.REACT_APP_appId 
   };
   
 

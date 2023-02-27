@@ -5,6 +5,7 @@ import FoodDetails from "../../Pages/FoodDetails/FoodDetails";
 import Home from "../../Pages/Home/Home/Home";
 import SignIn from "../../Pages/SignUp/SignIn/SignIn";
 import SignUp from "../../Pages/SignUp/SignUp/SignUp";
+import PrivateRoutes from "../PrivateRoute/PrivateRoutes";
 
 const router= createBrowserRouter([
     {
@@ -19,17 +20,23 @@ const router= createBrowserRouter([
             },
             {
                 path: '/details/:id',
-                element:<FoodDetails></FoodDetails>,
+                element:<PrivateRoutes>
+<FoodDetails></FoodDetails>
+                </PrivateRoutes>,
                 loader:({params})=> fetch(`https://food-delivery-website-server.vercel.app/breakfast/${params.id}`)
             },
             {
                 path: '/details/:id',
-                element:<FoodDetails></FoodDetails>,
+                element:<PrivateRoutes>
+                <FoodDetails></FoodDetails>
+                                </PrivateRoutes>,
                 loader:({params})=> fetch(`https://food-delivery-website-server.vercel.app/lunch/${params.id}`)
             },
             {
                 path: '/details/:id',
-                element:<FoodDetails></FoodDetails>,
+                element:<PrivateRoutes>
+                <FoodDetails></FoodDetails>
+                                </PrivateRoutes>,
                 loader:({params})=> fetch(`https://food-delivery-website-server.vercel.app/dinner/${params.id}`)
             },
             {

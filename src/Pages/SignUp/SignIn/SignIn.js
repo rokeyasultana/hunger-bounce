@@ -2,6 +2,7 @@ import { GoogleAuthProvider } from 'firebase/auth';
 import React, { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthProvide/AuthProvider';
+import Loading from '../../Shared/Loading/Loading';
 
 
 const SignIn = () => {
@@ -12,13 +13,11 @@ const SignIn = () => {
     const [error, setError] = useState(null);
    
   
+    const {providerLogin, logInWithEmailPassword,loading} = useContext(AuthContext)
   
-      const {providerLogin, logInWithEmailPassword} = useContext(AuthContext)
-  
-    //   if(loading){
-    //     return 
-    //   }
-   
+    if(loading){
+      return<Loading></Loading>
+    }
     const from = location.state?.from?.pathname || "/";
   
       const googleProvider = new GoogleAuthProvider()
@@ -58,9 +57,9 @@ const SignIn = () => {
    
    </div>
 
-            <div data-aos="fade-up" data-aos-duration="1500" class="flex mx-auto  card w-96  shadow-xl  mt-6">
+            <div  class="card w-96  mx-auto mt-24   shadow-xl  ">
          
-  <div  class="card-body signUp">
+  <div  class="card-body  signUp">
   <h2 className='text-left text-3xl mt-5 mb-5 font-semibold text-red-500'>Sign In</h2>
   <form onSubmit={handleSubmit} >
       <div >

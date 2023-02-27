@@ -43,10 +43,10 @@ const profileUpdate = (name, photoURL) => {
   };
     return (
         <div>
-            <div data-aos="fade-up" data-aos-duration="1500" >
+            <div >
   <div >
 
-    <div data-aos="fade-up" data-aos-duration="1500" class="flex mx-auto mt-6 card w-96  rounded shadow-xl">
+    <div  class="flex mx-auto mt-24  card w-96  rounded shadow-xl">
    
 
 <div  class="card-body signUp ">
