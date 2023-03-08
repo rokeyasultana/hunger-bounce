@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import AddToCartModal from '../../FoodDetails/AddToCartModal/AddToCartModal';
 import Breakfast from './Breakfast';
 
 const Breakfasts = () => {
     const[breakfasts,setBreakfasts] = useState([]);
-
+    const [addToCart,setAddToCart] = useState(null);
 useEffect(()=>{
     fetch('https://food-delivery-website-server.vercel.app/breakfast')
     .then(res=>res.json())
@@ -26,6 +27,7 @@ useEffect(()=>{
                 ></Breakfast>)
             }
            </div>
+         
         </div>
     );
 };

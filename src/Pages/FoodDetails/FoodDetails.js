@@ -1,15 +1,22 @@
-import React, { useRef } from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
+import AddToCartModal from './AddToCartModal/AddToCartModal';
+
 
 const FoodDetails = () => {
 
     const detail = useLoaderData();
-    const valueRef = useRef(0);
-    const {  _id, img, price, name, details } = detail;
+    // console.log(detail);
+    // const [food,setFood] = useState(null);
+
+   
+const {  _id, img, price, name, details } = detail;
+const [addToCart,setAddToCart] = useState(null);
 
     return (
         <div>
-            <div className="flex items-center justify-center h-screen mt-11 text-red-500 ">
+ 
+                 <div className="flex items-center justify-center h-screen mt-11 text-red-500 ">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img style={{height: "390px"}} src={img} className="max-w-sm rounded-full  shadow-2xl"  alt=''/>
     <div>
@@ -25,14 +32,22 @@ const FoodDetails = () => {
      
    
       <div className=' flex items-start '>
-     <button  className=" btn btn-outline text-red-500 normal-case">
-        Add to cart
- </button>
+
+ <label  onClick={() =>  setAddToCart(detail)} htmlFor="add-to-cart" className=" btn btn-outline text-red-500 normal-case"> Add to cart</label>
      </div>
    
     </div>
   </div>
 </div>
+      {
+       addToCart &&
+        <AddToCartModal
+        addToCart={addToCart }
+        setAddToCart ={setAddToCart}>
+      </AddToCartModal>
+      
+      }
+ 
 
 
         </div>

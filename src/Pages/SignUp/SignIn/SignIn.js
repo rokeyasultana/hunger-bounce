@@ -57,11 +57,11 @@ const SignIn = () => {
    
    </div>
 
-            <div  class="card w-96  mx-auto mt-24   shadow-xl  ">
+            <div  class="card w-96  mx-auto mt-24 mb-24  shadow-xl  ">
          
-  <div  class="card-body  signUp">
+  <div  class="card-body signUp">
   <h2 className='text-left text-3xl mt-5 mb-5 font-semibold text-red-500'>Sign In</h2>
-  <form onSubmit={handleSubmit} >
+  <form onSubmit={handleSubmit} className='' >
       <div >
         <div class="form-control">
           <label class="label">
